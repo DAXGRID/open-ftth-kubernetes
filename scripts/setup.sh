@@ -22,7 +22,7 @@ helm install nginx-ingress ingress-nginx/ingress-nginx \
 # Install strimzi
 helm install strimzi strimzi/strimzi-kafka-operator \
      -n openftth \
-     --version 0.19
+     --version 0.20
 
 # Install loki
 helm upgrade --install loki \
